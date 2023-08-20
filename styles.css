@@ -37,16 +37,12 @@ header {
     transition: ease .40s;
 }
 
-.logo {
-    font-size: 35px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: var(--text-color);
+.logo img {
+    max-width: 100%;
+    width: auto;
+    height: 60px;
 }
 
-.logo span {
-    color: #de87d8;
-}
 
 .navbar {
     display: flex;
@@ -107,7 +103,7 @@ section {
     font-size: var(--big-font);
     line-height: 1.2;
     color: var(--text-color);
-    font-family: 'Arsenal', sans-serif;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 4px;
     margin: 23px 0;
 }
@@ -509,13 +505,13 @@ form button:hover {
         left: 100%;
         display: flex;
         flex-direction: column;
-        background: #595656;
+        background: #e6dddd;
         transition: all 0.4s ease-in-out;
     }
 
     .navbar a {
         display: block;
-        color: #c3c3c3;
+        color: #d0c8c8;
         padding: 0px;
         margin: 0px 0px 40px 0px;
         font-size: 2rem;
@@ -524,7 +520,7 @@ form button:hover {
 
     #menu-icon {
         display: block;
-        color: #6c6868;
+        color: #d46ccd;
     }
 
     .navbar.open {
