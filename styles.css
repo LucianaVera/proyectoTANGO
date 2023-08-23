@@ -103,7 +103,7 @@ section {
     font-size: var(--big-font);
     line-height: 1.2;
     color: var(--text-color);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lobster', cursive;
     letter-spacing: 4px;
     margin: 23px 0;
 }
@@ -203,6 +203,10 @@ header.sticky {
     text-align: center;
 }
 
+.card-title {
+    font-family: 'Lobster', cursive;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -241,8 +245,8 @@ header.sticky {
 .card .card-title h2 {
     padding: 20px 10px;
     font-size: 1.5rem;
-    text-transform: uppercase;
     text-shadow: 1px 0px 2px #5a7184;
+    font-family: 'Lobster', cursive;
 }
 
 .card:hover {
@@ -525,6 +529,23 @@ form button:hover {
 
     .navbar.open {
         left: 0;
+    }
+
+    .inicio {
+        margin-top: 17%;
+
+    }
+
+    .inicio h1 {
+        font-size: 3.5rem;
+    }
+
+    .container h2 {
+        font-size: 2.5rem;
+    }
+
+    .servicios h2 {
+        font-size: 2.5rem;
     }
 
     .container-form {
