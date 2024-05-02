@@ -79,7 +79,7 @@ section {
 
 .inicio {
     position: relative;
-    margin-top: 7%;
+    margin-top: 12%;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -104,7 +104,7 @@ section {
 }
 
 .home-text h1 {
-    font-size: 280%;
+    font-size: 3rem;
     line-height: 1.1;
     color: var(--text-color);
     font-family: "Montserrat", sans-serif;
@@ -114,7 +114,7 @@ section {
 
 .home-text p {
     color: var(--p-font);
-    font-size: 20px;
+    font-size: 2.5rem;
     font-weight: 400;
     line-height: 38px;
     margin-bottom: 30px;
@@ -151,7 +151,7 @@ header.sticky {
 }
 
 .text h2 {
-    font-size: 180%;
+    font-size: 1.6rem;
     line-height: 1.1;
     text-align: center;
     margin-top: 5%;
@@ -458,7 +458,7 @@ form button:hover {
     }
 
     :root {
-        --big-font: 5rem;
+        --big-font: 2rem;
         --p-font: 1rem;
         transition: .2s;
     }
@@ -491,7 +491,7 @@ form button:hover {
     }
 
     .home-img img {
-        max-width: 450px;
+        max-width: 300px;
         width: 100%;
         height: auto;
     }
@@ -540,20 +540,20 @@ form button:hover {
     }
 
     .inicio {
-        margin-top: 17%;
+        margin-top: 29%;
 
     }
 
     .inicio h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     .container h2 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .servicios h2 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .container-form {
