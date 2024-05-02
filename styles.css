@@ -2,14 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Zilla Slab', serif;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
 }
 
 :root {
-    --bg-color: #fff;
+    --bg-color: #f3efef;
     --text-color: #2f2b2b;
     --second-color: #5a7184;
     --main-color: #afa62c;
@@ -18,9 +18,10 @@
     --p-font: 1.1rem;
 }
 
+
 body {
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: rgb(203, 202, 203);
+    background: linear-gradient(90deg, rgba(203, 202, 203, 1) 33%, rgba(110, 108, 109, 0.09567577030812324) 98%);
 }
 
 header {
@@ -99,15 +100,15 @@ section {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 10%;
+    border-radius: 12%;
 }
 
 .home-text h1 {
-    font-size: var(--big-font);
-    line-height: 1.2;
+    font-size: 280%;
+    line-height: 1.1;
     color: var(--text-color);
-    font-family: 'Lobster', cursive;
-    letter-spacing: 4px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
     margin: 23px 0;
 }
 
@@ -123,15 +124,16 @@ section {
     display: inline-block;
     font-size: 16px;
     padding: 15px 30px;
-    background: #de87d8;
+    background: #784d75;
     color: black;
     border-radius: 4px;
     transition: ease .40s;
 }
 
 .home-btn:hover {
-    background: #e52fd6;
+    background: #c68fc2;
     transform: scale(1.1);
+    color: #2f2b2b;
 }
 
 header.sticky {
@@ -149,7 +151,7 @@ header.sticky {
 }
 
 .text h2 {
-    font-size: var(--h2-font);
+    font-size: 180%;
     line-height: 1.1;
     text-align: center;
     margin-top: 5%;
@@ -186,7 +188,7 @@ header.sticky {
 }
 
 .container-box h4 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 8px;
 }
@@ -208,7 +210,7 @@ header.sticky {
 }
 
 .card-title {
-    font-family: 'Lobster', cursive;
+    font-family: "Montserrat", sans-serif;
 }
 
 .card-container {
@@ -249,17 +251,17 @@ header.sticky {
 .card .card-title h2 {
     padding: 20px 10px;
     font-size: 1.5rem;
-    font-family: 'Lobster', cursive;
+    font-family: "Montserrat", sans-serif;
 }
 
 .card:hover {
-    background: #de87d8;
+    background: #784d75;
     box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
 }
 
 .card .card-text ul {
     line-height: 25px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .about {
@@ -278,10 +280,13 @@ header.sticky {
 }
 
 .about-text h2 {
-    font-size: var(--h2-font);
-    font-weight: 500;
     margin: 8px 0px 25px;
     line-height: 1.1;
+    font-size: 180%;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .about-text p {
@@ -349,7 +354,7 @@ header.sticky {
 
 .data p i:hover,
 a:hover {
-    color: #de87d8;
+    color: #c68fc2;
 }
 
 form {
@@ -377,7 +382,7 @@ form {
 
 .input-box input:focus,
 .input-box textarea:focus {
-    border-bottom: 3px solid #de87d8;
+    border-bottom: 3px solid #c68fc2;
 }
 
 .input-box textarea {
@@ -391,7 +396,7 @@ form {
 }
 
 form button {
-    background: #de87d8;
+    background: #784d75;
     color: #fff;
     border: none;
     outline: none;
@@ -403,7 +408,7 @@ form button {
 }
 
 form button:hover {
-    background: #f458e9;
+    background: #c68fc2;
     ;
 }
 
@@ -411,7 +416,7 @@ form button:hover {
     text-align: center;
     padding: 15px;
     color: var(--second-color);
-    font-size: 15px;
+    font-size: 9px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -527,7 +532,7 @@ form button:hover {
 
     #menu-icon {
         display: block;
-        color: #d46ccd;
+        color: #c68fc2;
     }
 
     .navbar.open {
